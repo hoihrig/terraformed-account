@@ -1,0 +1,4 @@
+resource "aws_key_pair" "hoih" {
+  key_name   = "hoih-deploy"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWhCqDKqEAgMNoBinmwVK7tDRVUtJMm3dC9IcK648QmKA7bgQ2I/IhI/IJ4gUggtFkhStCaVUoSBhiY+r+1wuAVMF4BMGlP4Ee1CT7mg1OdWNrP5M0Rohg4GjS1HWgH7XGVlV1oNgCgPBm31wwAZxpQ9pGq1CPshBNOPnV7QjT6Ps4cORLmhX789Pq3GvISdzj7L7rBVa5JZ8RnpPQFTrEAUSY/c7b8i+7nKPz35L0yRpHJnO6smxqbbPZ+6vueFt9v6nIgMRuQ++h3EkSydVh3mGWVwR6cCYcZ+PufDz7HqdxLHp66jF2LL7p6GjCfJb06vmxiqkCKz6lAnWD6NwN holger.ihrig@telenordigital.com"
+}
