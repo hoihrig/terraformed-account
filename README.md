@@ -9,7 +9,7 @@ In this whole account setup, the idea is to use bastion hosts to access all of y
 To enable your machine to use a bastion host, it is easiest to change your SSH config with a rule for this.
 
 Example:
-## Bastion Host configuration for SecurityLogging account
+## Bastion Host configuration for Personal account
 ```
 Host 10.xxx.*
   ProxyCommand ssh ubuntu@<hostname_of_bastion_host> nc %h %p
