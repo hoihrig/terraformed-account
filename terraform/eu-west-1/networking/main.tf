@@ -24,6 +24,14 @@ data "aws_ami" "bastion_ami" {
   }
 }
 
+terraform {
+  backend "s3" {
+    bucket = "dgs-hoih-private-tfstate"
+    key    = "eu-west-1-networking"
+    region = "eu-west-1"
+  }
+}
+
 module "global" {
   source = "../../global-vars"
 }

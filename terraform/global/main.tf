@@ -15,3 +15,11 @@ resource "aws_s3_bucket" "terraform-state" {
 module "global" {
   source = "../global-vars"
 }
+
+terraform {
+  backend "s3" {
+    bucket = "dgs-hoih-private-tfstate"
+    key    = "global"
+    region = "eu-west-1"
+  }
+}

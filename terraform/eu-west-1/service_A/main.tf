@@ -34,6 +34,14 @@ data "aws_ami" "ubuntu" {
   }
 }
 
+terraform {
+  backend "s3" {
+    bucket = "dgs-hoih-private-tfstate"
+    key    = "eu-west-1-service_A"
+    region = "eu-west-1"
+  }
+}
+
 module "global" {
   source = "../../global-vars"
 }

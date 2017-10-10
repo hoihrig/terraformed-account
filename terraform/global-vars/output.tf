@@ -1,13 +1,13 @@
 output "account_id" {
-  value = "475428546282"
+  value = "208614717427"
 }
 
 output "account_short_name" {
-  value = "hoih-personal"
+  value = "hoih-private"
 }
 
 output "terraform_state_bucket" {
-  value = "dgs-hoih-personal-tfstate"
+  value = "dgs-hoih-private-tfstate"
 }
 
 output "remote_state_key" {
@@ -15,7 +15,7 @@ output "remote_state_key" {
 }
 
 output "owner_email" {
-  value = "hi@telenordigital.com"
+  value = "holger.ihrig@gmail.com"
 }
 
 output "default_region" {
